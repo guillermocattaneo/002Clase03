@@ -1,0 +1,41 @@
+<?php
+
+/*
+
+tag form para pasar informacion a otro lugar
+
+<input type="submit"PARA ACCIONAR ALGO value="NOMBRE DEL BOTON"
+ES UN ATRIBUTO DEL TAG FORM... LLAMADO "ACTION"
+
+*/
+
+
+?>
+
+<html>
+<head>
+	<title>Tu Clase 03 del 29 de 03 de 2016 de de de  </title>
+</head>
+
+
+<body>
+	<form action="mostrar.php" method="post">
+	<!-- method= ...
+	al mandar por post (minuscula), se codifica, no pasa la info asi a lo loco
+
+	cuando paso la informacion en get, se puede ver en el history, barra, y hasta guardar en favoritos. NO ES SEGURO
+
+	-->
+		<input type="text" name="usuario" placeholder="Ingresa' usuario">
+
+
+		<input type="password" name="contrasena" placeholder="Aca la contrasena">
+
+		<input type="submit" value="Enviar Informacion">
+
+
+	</form>
+
+</body>
+
+</html>
